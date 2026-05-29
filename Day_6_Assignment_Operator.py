@@ -95,7 +95,7 @@ num_12 = 356
 num_12 //= 23
 print(f"Num12: {num_12}")
 num_12 //= 12
-print(f"Num12: {num_12}")'''
+print(f"Num12: {num_12}")
 
 print("Modulus Assingment Operator")
 num_13 = 16
@@ -126,4 +126,12 @@ print(f"Num17: {num_17}")
 
 num_18 = int(input("Enter a random number: "))
 num_18 **= int(input("Enter a random number between 1 to 5: "))
-print(f"NUm18: {num_18}")
+print(f"NUm18: {num_18}")'''
+
+marks = int(input("Enter total marks: "))
+marks += int(input("Enter bonus marks: "))
+print(f"Marks: {marks}")
+
+subjects = int(input("Enter the total number of subjects: "))
+percentage = marks // subjects
+print(f"Percentage: {percentage}")
